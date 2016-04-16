@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h1.
+        English/Japanese
+    ul
+        each pair, i in dictionary 
+            li #{i} #{pair.english} | #{pair.japanese}
